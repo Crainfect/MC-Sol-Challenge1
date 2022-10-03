@@ -1,0 +1,46 @@
+
+    Create a directory called Challenge1-solana
+    Create a Node project in your directory by entering:
+        >npm init -y
+    Install the Solana Web3 JS library by entering:
+        >npm install   --save @solana/web3.js
+
+
+.....Key Concepts
+
+Before we dive into the code, a couple of concepts to introduce.
+Clusters
+
+As a developer, when we build an application on a blockchain, we can deploy our applications on various simulated blockchain networks called test networks. These networks are also known as clusters in Solana. Solana maintains several different clusters with different purposes.
+
+The three popular types of clusters in Solana are:
+
+    Devnet: Devnet serves as a playground for anyone who wants to take Solana for a test drive, as a user, token holder, app developer, or validator. Think of this as the local development environment.
+    Testnet: Testnet is where we stress-test recent release features on a live cluster, particularly focused on network performance, stability and validator behavior. Think of this as a test environment.
+    Mainnet Beta: This is the main network where Solana apps can be deployed and interacted with, using real SOL. Think of this as the live environment.
+
+Mainan:
+CLI: https://docs.solana.com/cli
+Js
+
+SOL
+SOL is Solana’s native token. Tokens are digitally native, programmable and secured by one’s crypto wallet and private key. The system can perform micropayments of factional SOLs,
+called lamports which have a value of 0.000000001 SOL
+
+Wallet / Keypair
+
+A wallet is your keypair - this is what holds the SOL tokens.
+A keypair has a public and private key.
+
+Keys
+
+    Public Key: This publicly available key is how others can send you transactions.
+    Private Key: This allows you to prove ownership and use the cryptocurrency associated with your public address. Never share this with anyone.
+
+Think of keys like a mailbox. The public key is the address of the box, 
+where anyone can send drop mail (transactions) in the slot. 
+Only the person with the private key can open the mailbox (prove ownership) and
+ read the messages (use the transactions).
+
+
+ RPC = remote procedure call -> send request for blockchain
